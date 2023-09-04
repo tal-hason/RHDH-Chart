@@ -11,7 +11,7 @@ upstream:
     image:
       registry: quay.io
       repository: rhdh/developer-hub-rhel9
-      tag: latest
+      tag: 1.0-8
       # Tag is set via prepare.sh script
       # tag: "${RHDH_RELEASE}-${TARGET_RHDH_TAG}"
       pullSecrets:
